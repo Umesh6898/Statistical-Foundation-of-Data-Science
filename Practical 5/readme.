@@ -1,0 +1,51 @@
+🎓 Analysis of University Instructor Evaluation Data
+🧭 Purpose
+
+The objective of this exercise is to apply concepts of probability and hypothesis testing to a dataset containing teaching evaluations of university instructors.
+This task emphasizes determining the likelihood of certain evaluation outcomes and performing a two-sided hypothesis test using the normal distribution.
+Python libraries such as NumPy and pandas were utilized to carry out the computations.
+
+📊 About the Dataset
+
+The dataset, referred to as ratings, captures details about university-level faculty and their teaching performance as rated by students.
+It includes both demographic characteristics and academic background information.
+
+Field	Description
+Prof	Unique identifier or name of the professor (some professors may appear multiple times)
+Gender	Gender of the instructor (Male or Female)
+Tenure	Indicates whether the instructor is tenured (Yes) or not (No)
+Beauty	A numerical value representing perceived attractiveness
+Rating	Average teaching evaluation score (typically ranges from 1 to 5)
+Students	Number of students who submitted evaluations
+Age	Age of the professor
+Division	Specifies if the course taught was lower-division or upper-division
+🧰 Tools and Technologies
+Tool/Library	Role
+Python 3.x	Main programming language for the analysis
+pandas	Used for managing and analyzing structured data
+NumPy	Provided support for numerical computations and probability calculations
+Matplotlib	Used for basic data visualization
+Google Colab	Hosted platform for running code and sharing results interactively
+🧾 Summary of Findings
+
+The mean of the evaluation scores was found to be 3.99, with a standard deviation of 0.55.
+
+The probability that a randomly chosen professor received a rating above 4.5 was estimated at 18.2%.
+
+The likelihood of an evaluation score falling within the range 3.5 to 4.2 was approximately 62.5%.
+
+A two-tailed z-test was conducted using a randomly selected sample of 30 ratings.
+The test produced a z-score of -0.82 and a p-value of 0.41.
+
+🔍 Since the p-value exceeds the standard significance threshold of 0.05, we fail to reject the null hypothesis.
+This suggests that the sample mean does not significantly differ from the population mean.
+
+🏁 Conclusion
+
+This analysis effectively demonstrated how to apply statistical reasoning and inference techniques to real-world educational data. Key takeaways include:
+
+Computing probabilities using the properties of the normal distribution.
+
+Designing and executing a two-sided z-test to compare sample and population means.
+
+Understanding and interpreting statistical outputs such as the z-score and p-value to support decision-making.
