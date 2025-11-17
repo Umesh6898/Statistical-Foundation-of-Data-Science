@@ -25,21 +25,37 @@ This practical builds understanding of how distance-based classification works i
 The Iris dataset includes measurements of 150 iris flowers from three species.
 
 📁 Columns Description
+
 Column	Description
+
 sepal length (cm)	Length of the sepal
+
 sepal width (cm)	Width of the sepal
+
 petal length (cm)	Length of the petal
+
 petal width (cm)	Width of the petal
+
 species	Target class: Setosa, Versicolor, Virginica
+
 🧰 Tools & Libraries Used
+
 Tool / Library	Purpose
+
 Python (3.x)	Programming language
+
 pandas	Data handling & EDA
+
 NumPy	Mathematical operations
+
 scikit-learn	KNN model, scaling, evaluation metrics
+
 Matplotlib	Visualizations
+
 Jupyter Notebook / Google Colab	Running the analysis
+
 🧪 Procedures & Results
+
 1️⃣ Exploratory Data Analysis (EDA)
 
 Conducted using:
@@ -55,6 +71,7 @@ This helps reveal feature patterns and differences among species.
 2️⃣ Feature Scaling
 
 StandardScaler was used to standardize the numerical features.
+
 Scaling is essential for KNN since it relies on distance calculations.
 
 3️⃣ Train-Test Split & KNN Model Training
@@ -86,6 +103,7 @@ All three species show strong classification metrics due to clear separation in 
 6️⃣ Error Rate Comparison for K = 1 to 20
 
 K values from 1 to 20 were tested to examine how the error rate changes.
+
 This helps in identifying the most reliable K value.
 
 7️⃣ Plot: Error Rate vs K Values
@@ -114,13 +132,21 @@ Data points colored by species
 Clear separation among Setosa, Versicolor, and Virginica
 
 📈 Summary of Findings
+
 Step	Purpose	Result
+
 EDA	Explore the dataset	Clear species-level differences
+
 Scaling	Normalize features	Crucial for KNN
+
 Model Training	Build the classifier	K=5 gives strong performance
+
 Confusion Matrix	Evaluate results	Very high accuracy
+
 Error Analysis	Identify best K	Optimal K around 3–7
+
 PCA Plot	Visualize classes	Clusters are easily distinguishable
+
 🏁 Conclusion
 
 This practical provided hands-on experience with:
